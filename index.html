@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="personalizado.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
 </head>
 <body>
     <h1>Ryan gosling I drive</h1>
-    <img src="ryan.jpg" alt="">
+    <p id="exemplo">Conteúdo</p>
+    <button type="button" onclick="alterarCont()">Alterar</button>
+
+    <a href="javascript:nome_funcao();">chamar a função</a>
+    <a href="javascript:somar(8, 3);">Somar</a><br><br>
+    <div style="text-align: center;">
+        
+        <button class="btnPlayAudio btn btn-success" data-audiourl="file:///C:/Users/Notebook/Downloads/rapaz-ele-ta-sem-zap.mp3">
+           zap
+        </button>
+        
+        <button class="btnPlayAudio btn btn-warning" data-audiourl="file:///C:/Users/Notebook/Downloads/oh-my-god-meme.mp3">
+            oh ma ga
+        </button>
+        
+        <button class="btnPlayAudio btn btn-danger" data-audiourl="file:///C:/Users/Notebook/Downloads/la-ele.mp3">
+            lá ele
+        </button>
+
+        <button class="btn btn-primary" onclick="stopAll()" style="margin-top: 15px;">
+            Stop All
+        </button>
+    </div>
+    <script src="personalizado.js"></script>
 </body>
 </html>
