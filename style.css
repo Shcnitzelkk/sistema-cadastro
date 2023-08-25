@@ -6,3 +6,6 @@ body{
     margin-top: 10px;
     display: inline-block;
 }
+img{
+    background-color: blueviolet;
+}
